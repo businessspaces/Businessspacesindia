@@ -16,10 +16,10 @@
    }
 
 header {
-  height: 80vh;
-  background: url("../img/header1.jpg") center;
-  -webkit-filter: grayscale(75%); /* Safari 6.0 - 9.0 */
-  filter: grayscale(75%);
+  height: 70vh;
+  background: url("../img/header.jpg") center;
+  -webkit-filter: grayscale(5%); /* Safari 6.0 - 9.0 */
+  filter: grayscale(35%);
   background-size: cover;
   display: flex;
   flex-direction: column;
@@ -45,12 +45,14 @@ header {
     font-family: "Abril Fatface", cursive;
     font-weight: lighter;
     -webkit-filter: grayscale(1%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(1%); }
+    filter: grayscale(1%);
+    /*color: black;*/ }
   header h3 {
     font-weight: lighter;
     margin-bottom: 20px;
     -webkit-filter: grayscale(1%); /* Safari 6.0 - 9.0 */
-    filter: grayscale(1%);  }
+    filter: grayscale(1%);
+    /*color: black;*/  }
     header img{
         width: 100px;
         height: 100px;
@@ -120,6 +122,11 @@ header {
       #one div.container div.wrapper .fa-chart-line  {
         font-size: 60px; }
       #one div.container div.wrapper h3 {
+        font-family: "Abril Fatface", cursive;
+        font-weight: normal;
+        font-size: 24px;
+        margin: 15px 0; }
+        one div.container div.wrapper h4 {
         font-family: "Abril Fatface", cursive;
         font-weight: normal;
         font-size: 24px;
