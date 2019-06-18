@@ -47,8 +47,8 @@ header {
     -webkit-filter: grayscale(1%); /* Safari 6.0 - 9.0 */
     filter: grayscale(1%);
     /*color: black;*/ }
-  header h3 {
-    font-weight: lighter;
+  header h2 {
+    font-weight: bolder;
     margin-bottom: 20px;
     -webkit-filter: grayscale(1%); /* Safari 6.0 - 9.0 */
     filter: grayscale(1%);
@@ -426,8 +426,8 @@ footer {
 .card {
   color: inherit;
   cursor: pointer;
-  width: calc(25% - 2rem);
-  min-width: calc(25% - 2rem);
+  width: calc(33% - 2rem);
+  min-width: calc(33% - 2rem);
   height: 300px;
   min-height: 300px;
   perspective: 1000px;
