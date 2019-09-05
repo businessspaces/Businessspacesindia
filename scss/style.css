@@ -242,11 +242,14 @@ footer {
   padding: 80px 5%;
   display: flex;
   justify-content: space-between; }
-  footer h4 {
+  footer h3 {
     font-family: "Abril Fatface", cursive;
     font-weight: lighter;
     font-size: 18px;
     margin-bottom: 10px; }
+    footer h3 a{
+      color : white;
+    }
   footer p {
     margin-bottom: 10px; }
     footer p a {
