@@ -205,6 +205,24 @@
             </p>
         </div>
     </section>
+    
+     <section id="contact">
+        <h2>Get in touch</h2>
+        <iframe width="0" height="0" border="0" name="dummyframe" id="dummyframe" style="display:none"></iframe>
+        <form class="gform" id="gform" action="https://script.google.com/macros/s/AKfycbyrx5L2qhP-U-3Errnx_C5iF2ZZFVy7NXegXYGYfQ/exec" method="POST" target="dummyframe" onsubmit="setTimeout(function(){ alert('Thanks! We will get back to you ASAP'); }, 1500);"/>
+            <div class="form-group">
+                <input id="name" class="form-control" type="text" name="name" placeholder="Name" required>
+                <input id="email" class="form-control" type="email" name="email" placeholder="E-mail" required>
+            </div>
+            <div>
+                <textarea id="message" class="form-control" name="message" rows="5" placeholder="Your message"></textarea>
+            </div>
+            <button type="submit" value="Send">
+                Send
+            </button>
+        </form>
+    </section>
+
     <footer>
         <div>
             <h4> 
@@ -244,6 +262,17 @@ s1.charset='UTF-8';
 s1.setAttribute('crossorigin','*');
 s0.parentNode.insertBefore(s1,s0);
 })();
+</script>
+
+<script>
+    
+    (function (){
+        if(window.location.hash == "#form"){
+            var element = document.getElementById('gform');
+            element.scrollIntoView();
+        }
+    })();
+        
 </script>
 <!--End of Tawk.to Script-->
 </body>
